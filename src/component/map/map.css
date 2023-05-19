@@ -1,0 +1,8 @@
+.map{
+    /* height: calc(100vh - 130px); */
+    height: 90vh;
+    width: 1000%;
+}
+.ol-zoom.ol-unselectable.ol-control{
+    display: none;
+}
