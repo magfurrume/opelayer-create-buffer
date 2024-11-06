@@ -1,9 +1,15 @@
-import MainMap from "./MainMap";
+
+import CreateBuffer from "./CreateBuffer";
+import CreatePolygon from "./CreatePolygon";
+import CreateLineString from "./CreateLineString";
+import CreatePoint from './CreatePoint'
 
 export default function index() {
     return (
         <>
-            <MainMap />
+            {/* <CreatePolygon /> */}
+            {/* <CreateLineString /> */}
+            <CreatePoint />
         </>
     )
 }
